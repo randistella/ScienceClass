@@ -75,5 +75,13 @@ h1 {
 }
 
 .bodytxt {
-    padding: 10px;
+    padding: 20px;
 }
+
+footer 
+	{
+    background-color: #785e52;
+	font-size: .8em;
+    padding: 12px;
+    color: white;
+    text-align: left;}

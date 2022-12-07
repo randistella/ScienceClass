@@ -24,7 +24,49 @@
 </nav>
     <main>
     <br>
-    <div class="bodytxt">What?
+    <form id="form1" name="form1" method="post">
+      Science Class - Feedback<br>
+    <label for="textfield">First Name:</label>
+    <input type="text" name="textfield" id="textfield"><br>
+	  <label for="textfield">Last Name:</label>
+    <input type="text" name="textfield" id="textfield"><br>
+	<label for="textfield">E-mail address:</label>
+    <input type="text" name="textfield" id="textfield"><br><br>
+	When did you take this class?<br>
+	First Quarter<input type="checkbox"><br>
+	Second Quarter<input type="checkbox"><br>
+	Third Quarter<input type="checkbox"><br>
+	Fourth Quarter<input type="checkbox"><br><br>
+		
+	What did you like about the class?<br>
+	Lecture<input type="checkbox"><br>
+	Lab<input type="checkbox"><br>
+	Project<input type="checkbox"><br><br>
+		
+	<p>Would you take another class from Ms. Sure?<br>
+	  <label>
+	    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+	    Yes</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+	    No</label>
+	  <br><br>
+	  </p>
+		Comments:<br>
+<form action="/form/submit" method="GET">
+      <textarea rows="5" cols="60" name="text" placeholder="Enter text"></textarea>
+      <br/>
+      <input type="submit" value="Submit Feedback"/>
+		<input type="reset" value="Clear Form"/>
+    </form>
+	
+												
+	
+		
+		
+	</form>
+<div class="bodytxt">&nbsp;
 </div>
     </main>
     
